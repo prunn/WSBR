@@ -68,7 +68,7 @@ public class QualifTimingTowerWidget extends Widget
     @Override
     public void onRealtimeEntered( LiveGameData gameData, boolean isEditorMode )
     {
-        super.onRealtimeEntered( gameData, isEditorMode );
+        super.onCockpitEntered( gameData, isEditorMode );
         
         visibleEnd = -1L;
         numValid.reset();
